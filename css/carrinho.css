@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor1: #6A5ACD;
+    --cor2: #836FFF;
+    --cor3: #6959CD;
+    --cor4: #483D8B;
+    --cor5: #191970;
+    --cor6: #000080;
+    --cor7: #00008B;
+    --cor8: #0000CD;
+    --cor9: #0000FF;
+    --cor10: #6495ED;
+    --cor11: #4169E1;
+    --cor12: #1E90FF;
+    --cor13: #00BFFF;
+}
+
+body{
+    font-family: 'Poppins';
+    background-color: #bdbdbd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#finalizar{
+    height: 50px;
+    border-radius: 50px;
+    font-size: 18px;
+    width: 300px;
+    cursor: pointer;
+    transition: all 0.5s;   
+}
+
+#finalizar:hover{
+    background-color: var(--cor4);
+    color: #fff;
+   
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid 2px black;
+    height: auto;
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.botao-carrinho{
+    font-size: 18px;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 100px;
+    transition: all 0.5s;
+}
+
+.botao-carrinho:hover{
+    background-color: var(--cor4);
+    transition: all 0.5s;
+}

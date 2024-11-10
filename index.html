@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-Geek</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" type="imagex/png" href="./img/adesivo-do-monstro-pac-man-laranja_1_-removebg-preview.png">
+</head>
+<body>
+    <header>
+        <img src="./img/DALL_E_2024-11-08_19.30.31_-_The_text__Z-Geek__in_a_bold__modern__and_playful_font_with_a_tech_or_futuristic_vibe._The_background_is_solid_black._The_text_is_designed_in_bright_ne-removebg-preview.png" alt="">
+        <nav>
+            <ul id="menu">
+                <li><a href="#" class="nav-link">Início</a></li>
+                <li><a href="./carrinho.html" class="nav-link">Carrinho</a></li>
+                <li><a href="#" class="nav-link">Produtos</a></li>
+                <li><a href="#" class="nav-link">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="produtos">
+        <div class="produto">
+            <img src="./img/daenerys-targaryen-removebg-preview.png" alt="">
+            <h3>Daenerys Targaryen</h3>
+            <del>R$ 300,00</del>
+            <p>R$120,00</p>
+            <button onclick="AdicionarAoCarrinho('Daenerys Targaryen', 120.00)">Adicionar Ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="./img/png-transparent-batman-action-figures-joker-funko-action-toy-figures-retro-pop-comics-dc-comics-fictional-character-thumbnail-removebg-preview.png" alt="" width="350px" height="359px">
+            <h3>Batman</h3>
+            <del>R$ 300,00</del>
+            <p>R$190,00</p>
+            <button onclick="AdicionarAoCarrinho('Batman', 190.00)">Adicionar Ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="./img/png-transparent-black-panther-erik-killmonger-shuri-black-widow-funko-funko-pop-thumbnail-removebg-preview.png" alt="">
+            <h3>Pantera Negra</h3>
+            <del>R$ 300,00</del>
+            <p>R$100,00</p>
+            <button onclick="AdicionarAoCarrinho('Pantera Negra', 100.00)">Adicionar Ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="./img/png-transparent-demogorgon-funko-action-toy-figures-stranger-things-season-2-television-stranger-thing-television-villain-demogorgon-thumbnail-removebg-preview.png" alt="">
+            <h3>Demogorgon</h3>
+            <del>R$ 300,00</del>
+            <p>R$150,00</p>
+            <button onclick="AdicionarAoCarrinho('Demogorgon', 150.00)">Adicionar Ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="./img/png-transparent-funko-guns-n-roses-action-toy-figures-designer-toy-pop-music-slash-photography-guitarist-cartoon-thumbnail-removebg-preview.png" alt="" width="350px" height="359px">
+            <h3>Guns N Roses</h3>
+            <del>R$ 300,00</del>
+            <p>R$299,99</p>
+            <button onclick="AdicionarAoCarrinho('Guns N Roses', 299.99)">Adicionar Ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="./img/png-transparent-funko-mtv-unplugged-in-new-york-musician-fye-nirvana-funko-pop-retail-fictional-character-action-figure-thumbnail-removebg-preview.png" alt="">
+            <h3>Kurt Cobain (Nirvana)</h3>
+            <del>R$ 300,00</del>
+            <p>R$299,99</p>
+            <button onclick="AdicionarAoCarrinho('Kurt Cobain (Nirvana)', 299.99)">Adicionar Ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="./img/png-transparent-funko-pop-marvel-wolverine-funko-pop-marvel-wolverine-funko-pop-vinyl-figure-action-toy-figures-wolverine-superhero-fictional-character-wolverine-thumbnail-removebg-preview.png" alt="">
+            <h3>Wolverine</h3>
+            <del>R$ 300,00</del>
+            <p>R$179,99</p>
+            <button onclick="AdicionarAoCarrinho('Wolverine', 179.99)">Adicionar Ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="./img/png-transparent-funko-pop-movies-potter-ginny-weasley-ron-weasley-rubeus-hagrid-funko-pop-movies-action-vinyl-figure-harry-potter-harry-potter-broom-thumbnail-removebg-preview.png" alt="">
+            <h3>Gina Weasley</h3>
+            <del>R$ 300,00</del>
+            <p>R$300,99</p>
+            <button onclick="AdicionarAoCarrinho('Gina Weasley', 300.99)">Adicionar Ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="./img/png-transparent-it-funko-pop-vinyl-figure-action-toy-figures-funko-pop-movies-others-fictional-character-action-figure-stuffed-toy-thumbnail-removebg-preview.png" alt="" width="350px" height="359px">
+            <h3>Pennywise</h3>
+            <del>R$ 300,00</del>
+            <p>R$599,99</p>
+            <button onclick="AdicionarAoCarrinho('Pennywise', 599.99)">Adicionar Ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="./img/png-transparent-sonic-the-hedgehog-funko-pop-vinyl-figure-doctor-eggman-shadow-the-hedgehog-others-ring-sonic-the-hedgehog-video-game-thumbnail-removebg-preview.png" alt="">
+            <h3>Sonic, o Ouriço</h3>
+            <del>R$ 300,00</del>
+            <p>R$300,99</p>
+            <button onclick="AdicionarAoCarrinho('Sonic, o Ouriço', 300.99)">Adicionar Ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="./img/png-transparent-superman-batman-funko-action-toy-figures-funko-pop-comics-child-superhero-thumbnail-removebg-preview.png" alt="">
+            <h3>Superman</h3>
+            <del>R$ 300,00</del>
+            <p>R$299,99</p>
+            <button onclick="AdicionarAoCarrinho('Superman', 299.99)">Adicionar Ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="./img/png-transparent-spider-man-big-time-vulture-funko-captain-america-funko-pop-thumbnail-removebg-preview.png" alt="">
+            <h3 id="titulo">Homem Aranha (Tom Holland)</h3>
+            <del>R$ 300,00</del>
+            <p>R$200,99</p>
+            <button onclick="AdicionarAoCarrinho('Homem Aranha (Tom Holland)', 200.99)">Adicionar Ao Carrinho</button>
+        </div>
+        <hr>    
+        
+        <button onclick="irParaCarrinho()" id="carrinho">Ir para o Carrinho</button>
+
+    </div>
+    <footer>
+        <h4>&copyTodos os direitos reservados à Z-Geek</h4>
+    </footer>
+    <script src="./js/scripts.js"></script>
+</body>
+</html>
