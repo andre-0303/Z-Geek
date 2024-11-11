@@ -4,7 +4,7 @@ function AdicionarAoCarrinho(nome, preco){
 
     if (produtoExistente){
         produtoExistente.quantidade += 1;
-    } else {
+    }else {
         carrinho.push({ nome: nome, preco: preco, quantidade: 1});
     }
 

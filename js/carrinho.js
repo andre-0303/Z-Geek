@@ -4,7 +4,7 @@ function carregarCarrinho() {
     carrinhoDiv.innerHTML = '';
     let total = 0;
 
-    if (carrinho.length === 0) {
+    if(carrinho.length === 0) {
         carrinhoDiv.innerHTML = '<p>Seu carrinho está vazio.</p>';
         document.getElementById('total').innerText = '0.00';
         return;
